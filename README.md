@@ -11,7 +11,7 @@ mv dot-env-example .env
 
 # add credentials to .env
  
-node install
+npm install
 ```
 
 # run 
