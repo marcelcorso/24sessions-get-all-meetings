@@ -1,0 +1,3 @@
+# rename this file to .env
+CLIENT_ID=6666
+CLIENT_SECRET=888
