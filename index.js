@@ -52,17 +52,6 @@ async function fetchData(page, meetings) {
         meetings.push(meeting);
       }
 
-/*
-  '@context': '/contexts/Meeting',
-  '@id': '/meetings',
-  '@type': 'hydra:PagedCollection',
-  'hydra:totalItems': 41,
-  'hydra:itemsPerPage': 200,
-  'hydra:firstPage': '/meetings',
-  'hydra:lastPage': '/meetings',
-  'hydra:member': [
-    {
-*/
       // if current page is different than the last page
       if (data['@id'] != data['hydra:lastPage']) {
         // recurse
